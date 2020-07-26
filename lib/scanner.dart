@@ -21,7 +21,7 @@ class _ScannerState extends State<Scanner> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color(0xFF50DAC9),
+          backgroundColor: Colors.black,
           title: Center(
             child: Text('Smart Share'),
           ),
@@ -32,7 +32,7 @@ class _ScannerState extends State<Scanner> {
           onPressed: () {
             _scan();
           },
-          backgroundColor: Color(0xFF50DAC9),
+          backgroundColor: Colors.black,
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         body: SingleChildScrollView(
@@ -46,7 +46,7 @@ class _ScannerState extends State<Scanner> {
                       child: TextField(
                               controller: msgTextController,
                               decoration: InputDecoration(
-                                hintText: 'Type you\'re password',
+                                hintText: 'Type your password',
                               ),
                             ),
                     ),
@@ -60,7 +60,7 @@ class _ScannerState extends State<Scanner> {
                         height: 60,
                         width: 60,
                         decoration: BoxDecoration(
-                          color: Color(0xFF50DAC9),
+                          color: Colors.black,
                           borderRadius: BorderRadius.circular(30),
                             boxShadow: [
                               BoxShadow(

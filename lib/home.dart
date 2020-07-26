@@ -41,10 +41,10 @@ class _HomeState extends State<Home> with TickerProviderStateMixin{
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-//        body: AnimatedBackground(
-//          behaviour: RandomParticleBehaviour(),
-//          vsync: this,
-          body: Column(
+        body: AnimatedBackground(
+          behaviour: RandomParticleBehaviour(),
+          vsync: this,
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Padding(
@@ -92,7 +92,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin{
               Center(child: Text("Made by Sakshi X Siddharth"))
             ],
           ),
-//        ),
+        ),
       ),
     );
   }
