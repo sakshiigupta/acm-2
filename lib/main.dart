@@ -1,7 +1,6 @@
-import 'package:acm_medium/generator.dart';
 import 'package:flutter/material.dart';
-import 'package:acm_medium/scanner.dart';
-import 'package:acm_medium/home.dart';
+import 'scanner.dart';
+import 'home.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +16,6 @@ class MyApp extends StatelessWidget {
           {
             Home.id: (context)=>Home(),
             Scanner.id: (context)=>Scanner(),
-            Generator.id: (context)=>Generator(),
           },
       theme: ThemeData.dark(),
     );

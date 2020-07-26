@@ -1,4 +1,4 @@
-# acm_medium
+# apptitude_acm
 
 A new Flutter application.
 
