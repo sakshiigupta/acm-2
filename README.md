@@ -2,6 +2,21 @@
 
 ## Team Dev.exe
 
+### Demo
+
+<img src="./assets/Dev.eve - Screen Record.gif" width="600" title="demo">
+
+### ScreenShots
+1. Welcome Screen
+<img src="./assets/HomeScreen.jpeg" width="600" title="demo">
+
+2. Biometric Auth Screen
+<img src="./assets/AuthScreen.jpeg" width="600" title="demo">
+
+3. QR Screen
+
+<img src="./assets/Qr Screen.jpeg" width="600" title="demo">
+
 ### Problem Statement
 1. Biometric Authentication
 2. Implementation of QR Code generation
